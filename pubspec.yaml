@@ -1,0 +1,29 @@
+name: sticky_game
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  bloc: ^0.15.0
+  flutter_bloc: ^0.21.0
+  equatable: ^0.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+   - family: Roboto Mono
+     fonts:
+       - asset: fonts/RobotoMono-Regular.ttf
+   - family: Roboto Slab
+     fonts:
+       - asset: fonts/RobotoSlab-Regular.ttf
